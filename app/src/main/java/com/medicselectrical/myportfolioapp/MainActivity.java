@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,5 +36,23 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    // Button Event Functions
+
+    public void onBtnClicked(View v){
+        if(v.getId() == R.id.spotifystreamerbutton){
+
+        } else if(v.getId() == R.id.scoresappbutton){
+
+        } else if(v.getId() == R.id.libraryapp){
+
+        } else if(v.getId() == R.id.builditbigger){
+
+        } else if(v.getId() == R.id.xyzreader){
+
+        } else if(v.getId() == R.id.capstonebutton){
+
+        }
     }
 }
